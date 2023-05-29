@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zcx-oa-parent</artifactId>
+        <groupId>com.learning</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>service-oa</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-mp</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.learning</groupId>
+            <artifactId>model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.learning</groupId>
+            <artifactId>service-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-engine-core</artifactId>
+            <version>2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.learning</groupId>
+            <artifactId>spring-security</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.activiti/activiti-spring-boot-starter -->
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring-boot-starter</artifactId>
+            <version>7.1.0.M6</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>mybatis</artifactId>
+                    <groupId>org.mybatis</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
+
+</project>
