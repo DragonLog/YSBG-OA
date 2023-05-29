@@ -12,4 +12,11 @@
 7. **springboot的启动类会自动扫描同包及其子包下打上spring相关注解的类，同步和子包外的类想要是话需要手动添加，或者基于“自动装配”实现。**
 8. **强烈建议，如果不是对前端特别有兴趣，请直接使用老师提供的全部前端资料（我中间被前端报错折磨的实在受不了了），node版本请与老师保持绝对一致！（我不明白为什么这玩意向下兼容可以做的这么差...）**
 9. **由于个人信息安全原因清空了maven工程，顺带把processes这个文件夹也给清了，所以那个流程定义的zip也没了，但是它已经被加载到数据库变成实例了，这块如果有问题的话建议再上传一个流程zip并发布。**
-
+![示例图片](https://github.com/DragonLog/YSBG-OA/blob/main/pictureForExample/show1.jpg))
+![示例图片](https://github.com/DragonLog/YSBG-OA/blob/main/pictureForExample/show2.jpg)
+![示例图片](https://github.com/DragonLog/YSBG-OA/blob/main/pictureForExample/show3.jpg)
+![示例图片](https://github.com/DragonLog/YSBG-OA/blob/main/pictureForExample/show4.jpg)
+![示例图片](https://github.com/DragonLog/YSBG-OA/blob/main/pictureForExample/show5.jpg)
+![示例图片](https://github.com/DragonLog/YSBG-OA/blob/main/pictureForExample/show6.jpg)
+![示例图片](https://github.com/DragonLog/YSBG-OA/blob/main/pictureForExample/show7.jpg)
+![示例图片](https://github.com/DragonLog/YSBG-OA/blob/main/pictureForExample/show8.jpg)
