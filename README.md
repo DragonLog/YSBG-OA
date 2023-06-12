@@ -13,6 +13,8 @@
 8. **强烈建议，如果不是对前端特别有兴趣，请直接使用老师提供的全部前端资料（我中间被前端报错折磨的实在受不了了），node版本请与老师保持绝对一致！（我不明白为什么这玩意向下兼容可以做的这么差...）**
 9. **由于个人信息安全原因清空了maven工程，顺带把processes这个文件夹也给清了，所以那个流程定义的zip也没了，但是它已经被加载到数据库变成实例了，这块如果有问题的话建议再上传一个流程zip并发布。**
 ***
+**[哔哩哔哩在线课程](https://www.bilibili.com/video/BV1oM41177Jd?p=111&vd_source=b03bfffc44ef99d2c8a183e364f3ef9d)**
+***
 ![示例图片](https://github.com/DragonLog/YSBG-OA/blob/main/pictureForExample/show1.png)
 ![示例图片](https://github.com/DragonLog/YSBG-OA/blob/main/pictureForExample/show2.png)
 ![示例图片](https://github.com/DragonLog/YSBG-OA/blob/main/pictureForExample/show3.png)
